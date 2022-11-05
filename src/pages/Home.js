@@ -5,7 +5,7 @@ import Footer  from '../components/Footer'
 
 const Home = () => {
   return (
-    
+
     <>
     <Header/>
     <div>Home</div>
@@ -13,5 +13,6 @@ const Home = () => {
     </>
   )
 }
+
 
 export default Home
