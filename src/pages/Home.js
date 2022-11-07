@@ -7,6 +7,7 @@ const Home = () => {
     return (
 
     <>
+    
     <div className='bg-[url(../assets/code.jpg)]'> 
     <Header/>
     <div className='text-center'>
