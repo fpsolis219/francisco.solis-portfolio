@@ -1,0 +1,44 @@
+env:
+  browser: true
+  es2021: true
+  jest: true
+  node: true
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - plugin:tailwindcss/recommended
+  - plugin:jest/recommended
+  - prettier
+settings:
+  react:
+    version:
+      detect
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: latest
+  sourceType: module
+plugins:
+  - react
+  - tailwindcss
+  - jest
+rules:
+  indent:
+    - error
+    - 2
+  linebreak-style:
+    - error
+    - unix
+  jsx-quotes:
+    - error
+    - prefer-double
+  quotes:
+    - error
+    - double
+  semi:
+    - error
+    - never
+  react/prop-types:
+    - off
+  react/react-in-jsx-scope:
+    - off
