@@ -15,7 +15,8 @@ const Navbar = () => {
         <Button className="bg-slate-800 hover:bg-slate-600"><a href="/experience" className="underline underline-offset-8">Experience/skills</a></Button>
         <Button className="bg-slate-800 hover:bg-slate-600"><a href="/projects" className="underline underline-offset-8">Projects</a></Button>
         <Button className="bg-slate-800 hover:bg-slate-600"><a href="/interests" className="underline underline-offset-8">Interests</a></Button>
-        <Button className="bg-slate-800 hover:bg-slate-600"><a href="/contact" className="underline underline-offset-8">Contact Information</a></Button>  
+        <Button className="bg-slate-800 hover:bg-slate-600"><a href="/contact" className="underline underline-offset-8">Contact Information</a></Button>
+          
       </div>
       
 
