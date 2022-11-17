@@ -8,7 +8,6 @@ const Home = () => {
   
   
   return (
-    
 
     <>
       <div className="bg-cover text-center text-gold text-2xl font-serif h-auto w-auto selection:bg-red-800 bg-slate-300 border-[30px] border-red-800 border-opacity-75 " > 
