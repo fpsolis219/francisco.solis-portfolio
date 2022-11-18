@@ -12,7 +12,7 @@ const Home = () => {
     
 
     <>
-      <div className="text-center text-gold text-2xl font-serif selection:bg-red-800 bg-slate-700 bg-gradient-to-r from-red-800" > 
+      <div className="text-center text-gold text-2xl font-serif selection:bg-red-800 bg-slate-700 bg-gradient-to-r via-slate-300 from-red-800" > 
         <div className="bg-cover h-[550px]" style={ {backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80')"}} >
           <br/>
           <br/>
