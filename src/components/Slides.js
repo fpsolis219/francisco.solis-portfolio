@@ -31,6 +31,7 @@ const Slides = () => {
         <img className="h-[380px] w-[330px]"
           src={Camila}
           alt="..."
+          
         />
       </Carousel>
     </div>
