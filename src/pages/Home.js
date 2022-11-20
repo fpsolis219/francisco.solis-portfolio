@@ -4,6 +4,8 @@ import Footer  from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Aboutme from "./Aboutme"
 import Slides from "../components/Slides"
+
+
 const Home = () => {
   
   
@@ -12,8 +14,9 @@ const Home = () => {
     
 
     <>
-      <div className="text-center text-gold text-2xl font-serif selection:bg-red-800 bg-slate-400 bg-gradient-to-l via-slate-100 from-slate-400" > 
+      <div className="text-center text-gold text-xl font-serif selection:bg-red-800 bg-slate-400 bg-gradient-to-l via-slate-100 from-slate-400" > 
         <div className="bg-cover h-[550px]" style={ {backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80')"}} >
+          
           <br/>
           <br/>
           <br/>
@@ -24,16 +27,16 @@ const Home = () => {
               alt="Bonnie image"
             />
           </center>
-          <h1 className="underline-offset-8  text-5xl underline my-8"> <mark className="bg-red-800/75 text-gold"> Welcome to my Portfolio!</mark>
+          <h1 className="underline-offset-8  text-5xl underline my-8"> <mark className="bg-zinc-800/75 text-gold"> Welcome to my Portfolio!</mark>
           </h1>
           <div className="my-8"> 
-            <p><mark className="bg-red-800/50 text-gold">My name is Francisco Solis and </mark>
+            <p><mark className="bg-zinc-800/75 text-gold text-2xl">My name is Francisco Solis and </mark>
             </p>
             <br/>
-            <p><mark className="bg-red-800/50 text-gold">I am an aspiring Full Stack web Developer.</mark>
+            <p><mark className="bg-zinc-800/75 text-gold text-2xl">I am an aspiring Full Stack web Developer.</mark>
             </p>
             <br/>
-            <p><mark className="bg-red-800/50 text-gold">Get to know me!</mark>
+            <p><mark className="bg-zinc-800/75 text-gold text-2xl">Get to know me!</mark>
             </p>
           </div>
           

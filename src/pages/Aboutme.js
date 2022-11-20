@@ -4,10 +4,10 @@ const Aboutme = () => {
   return (
     <>
       <div className="text-underline-offset-4  text-5xl underline my-8 font-serif "> 
-        <center><mark className="bg-red-800/75 text-gold"> About me </mark></center>
+        <center><mark className="bg-zinc-800/75 text-gold"> About me </mark></center>
       </div>
       <div>
-        <p> <mark className="bg-red-800/75 text-gold"> I am a United States Army Veteran with a background of operating various types of motorized aparatuses such as: Bulldozers, Excavator, Compactor, Front-Loader, Backhoe, Dump-Truck etc. For 7 years I have been committed to that profesion, until I decided it was time to make  a drastic change to seek out better oppurtunities. That oppurtunity started with LEARN Academy... <br/><br/> <a href="https://www.learnacademy.org/"> @LEARN Academy</a>, I aquired the skills needed to be software engineer. As a Graduate I continue to practice the fundamentals of web developing and specialize in: Javascript, ReactJS, Ruby, Postgres and Ruby On Rails.</mark> </p>
+        <p> <mark className="bg-zinc-800/75 text-gold">I am a Army Veteran from Orange County, California and a father of two beautiful girls. Coming from the military I sought out a career that best fit my skills that I acquired which was the ability to operate heavy Equipment. For awhile I settled in that profession but was strenuous  </mark> </p>
       </div>
     </>
   )
