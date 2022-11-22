@@ -3,6 +3,7 @@ import React from "react"
 import Footer  from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Aboutme from "./Aboutme"
+import Skills from "./Skills"
 import Slides from "../components/Slides"
 
 
@@ -46,6 +47,10 @@ const Home = () => {
         </div>
         <Slides/>
         <Aboutme/>
+        <br/>
+        <br/>
+        <br/>
+        <Skills/>
         <Footer/>
       </div>
     </>
