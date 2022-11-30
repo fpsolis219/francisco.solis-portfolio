@@ -3,7 +3,7 @@ import React from "react"
 import Footer  from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Aboutme from "./Aboutme"
-import Skills from "./Skills"
+import Languages from "./Languages"
 import Slides from "../components/Slides"
 
 
@@ -23,12 +23,12 @@ const Home = () => {
           <br/>
           <center> 
             <img
-              className="mb-3 h-[170px] w-[170px] rounded-full shadow-lg"
-              src="https://media-exp1.licdn.com/dms/image/sync/C5627AQFh79ey-e1P0g/articleshare-shrink_480/0/1668314287064?e=1669266000&v=beta&t=QFYQ2Ns6vaRq8FppoVUioZybwhpbveyEw8DIAM6csf0"
-              alt="Bonnie image"
+              className="mb-3 h-[170px] w-[170px] rounded-full shadow-lg border-4 border-slate-700"
+              src="https://avatars.githubusercontent.com/u/106039705?v=4"
+              alt=""
             />
           </center>
-          <h1 className="underline-offset-8  text-5xl underline my-8"> <mark className="bg-zinc-800/75 text-gold"> Welcome to my Portfolio!</mark>
+          <h1 className="underline-offset-8  text-5xl underline decoration-emerald-600 my-8"> <mark className="bg-zinc-800/75 text-gold"> Welcome to my Portfolio!</mark>
           </h1>
           <div className="my-8"> 
             <p><mark className="bg-zinc-800/75 text-gold text-2xl">My name is Francisco Solis and </mark>
@@ -50,7 +50,11 @@ const Home = () => {
         <br/>
         <br/>
         <br/>
-        <Skills/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Languages/>
         <Footer/>
       </div>
     </>
