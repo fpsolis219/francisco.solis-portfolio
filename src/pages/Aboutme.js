@@ -3,12 +3,30 @@ import React from "react"
 const Aboutme = () => {
   return (
     <>
-      <div className="text-underline-offset-4  text-5xl underline my-8 font-serif "> 
-        <center><mark className="bg-red-800/75 text-gold"> About me </mark></center>
+      <div className="underline-offset-4  text-5xl underline decoration-emerald-600 my-8 font-serif "> 
+        <center><mark className="bg-zinc-800/75 text-gold"> About me </mark></center>
       </div>
-      <div>
-        <p> <mark className="bg-red-800/75 text-gold"> I am a United States Army Veteran with a background of operating various types of motorized aparatuses such as: Bulldozers, Excavator, Compactor, Front-Loader, Backhoe, Dump-Truck etc. For 7 years I have been committed to that profesion, until I decided it was time to make  a drastic change to seek out better oppurtunities. That oppurtunity started with LEARN Academy... <br/><br/> <a href="https://www.learnacademy.org/"> @LEARN Academy</a>, I aquired the skills needed to be software engineer. As a Graduate I continue to practice the fundamentals of web developing and specialize in: Javascript, ReactJS, Ruby, Postgres and Ruby On Rails.</mark> </p>
+      <div className="mx-20">
+        <p> <mark className="bg-zinc-800/75 text-gold">I am a Army Veteran from Orange County, California and a father of two beautiful girls. Coming from the military I sought out a career that would best fit my skills that I acquired from my experience which was the ability to operate heavy Equipment. For awhile I settled in that profession and was proficient at it, but  was wanting to make a change that would better suite me and my family. Using the <a href="https://www.benefits.va.gov/gibill/fgib/vettec_providers.asp" target="_blank" rel="noopener noreferrer" className="text-emerald-500 hover:animate-[pulse_1s_ease-in-out_infinite]"> VET-TEC </a> program I was able to put myself in a position that would allow me to learn how to become a software developer with the school of my choice. After some planning I was able to step into a software developing career starting @<a href="https://www.learnacademy.org/" target="_blank" rel="noopener noreferrer" className="text-emerald-500 hover:animate-[pulse_1s_ease-in-out_infinite]">LEARN Academy</a></mark></p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
+      <div className="underline-offset-4  text-5xl underline my-8 font-serif "> 
+        <center><mark className="bg-zinc-800/75 text-gold underline decoration-emerald-600"> Soft Skills</mark></center>
+      </div>
+      <div className="">
+        <ul className="space-y-8 text-emerald-500"> 
+          <li>Project Management</li>
+          <li>Planning</li>
+          <li>Active Listening</li>
+          <li> Critical Thinking</li>
+          <li>Goal Oriented</li>
+        </ul>
+      </div>
+
+      
     </>
   )
 }

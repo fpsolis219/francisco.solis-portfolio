@@ -3,7 +3,10 @@ import React from "react"
 import Footer  from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Aboutme from "./Aboutme"
+import Languages from "./Languages"
 import Slides from "../components/Slides"
+
+
 const Home = () => {
   
   
@@ -12,28 +15,29 @@ const Home = () => {
     
 
     <>
-      <div className="text-center text-gold text-2xl font-serif selection:bg-red-800 bg-slate-400 bg-gradient-to-l via-slate-100 from-slate-400" > 
+      <div className="text-center text-gold text-xl font-serif selection:bg-red-800 bg-slate-400 bg-gradient-to-l via-slate-100 from-slate-400" > 
         <div className="bg-cover h-[550px]" style={ {backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80')"}} >
+          
           <br/>
           <br/>
           <br/>
           <center> 
             <img
-              className="mb-3 h-[170px] w-[170px] rounded-full shadow-lg"
-              src="https://media-exp1.licdn.com/dms/image/sync/C5627AQFh79ey-e1P0g/articleshare-shrink_480/0/1668314287064?e=1669266000&v=beta&t=QFYQ2Ns6vaRq8FppoVUioZybwhpbveyEw8DIAM6csf0"
-              alt="Bonnie image"
+              className="mb-3 h-[170px] w-[170px] rounded-full shadow-lg border-4 border-slate-700"
+              src="https://avatars.githubusercontent.com/u/106039705?v=4"
+              alt=""
             />
           </center>
-          <h1 className="underline-offset-8  text-5xl underline my-8"> <mark className="bg-red-800/75 text-gold"> Welcome to my Portfolio!</mark>
+          <h1 className="underline-offset-8  text-5xl underline decoration-emerald-600 my-8"> <mark className="bg-zinc-800/75 text-gold"> Welcome to my Portfolio!</mark>
           </h1>
           <div className="my-8"> 
-            <p><mark className="bg-red-800/50 text-gold">My name is Francisco Solis and </mark>
+            <p><mark className="bg-zinc-800/75 text-gold text-2xl">My name is Francisco Solis and </mark>
             </p>
             <br/>
-            <p><mark className="bg-red-800/50 text-gold">I am an aspiring Full Stack web Developer.</mark>
+            <p><mark className="bg-zinc-800/75 text-gold text-2xl">I am an aspiring Full Stack web Developer.</mark>
             </p>
             <br/>
-            <p><mark className="bg-red-800/50 text-gold">Get to know me!</mark>
+            <p><mark className="bg-zinc-800/75 text-gold text-2xl">Get to know me!</mark>
             </p>
           </div>
           
@@ -43,6 +47,14 @@ const Home = () => {
         </div>
         <Slides/>
         <Aboutme/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Languages/>
         <Footer/>
       </div>
     </>
