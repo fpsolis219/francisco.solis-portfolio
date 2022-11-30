@@ -28,17 +28,17 @@ export const Languages = () => {
         </div>
         <br/>
         <br/>
-        <center className="grid grid-cols-3 space-y-20">
+        <center className="grid grid-cols-3 space-y-4">
+          <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]" src={HTML}/></a>
+          <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={CSS}/></a>
+          <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Javascript}/></a>
+          <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Ruby}/></a>
+          <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Postgresql}/></a>
+          <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Reactlogo}/></a>
+          <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Rails}/></a>
+          <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Postman}/></a>
+          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><img className="shadow-2xl hover:animate-[pulse_1s_ease-in-out_infinite]"  src={Tailwind}/></a>
 
-          <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer"><img  src={HTML}/></a>
-          <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer"><img   src={CSS}/></a>
-          <a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer"><img   src={Javascript}/></a>
-          <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noopener noreferrer"><img   src={Ruby}/></a>
-          <a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><img   src={Postgresql}/></a>
-          <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank" rel="noopener noreferrer"><img   src={Reactlogo}/></a>
-          <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer"><img   src={Rails}/></a>
-          <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer"><img   src={Postman}/></a>
-          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer"><img   src={Tailwind}/></a>
 
         </center>
         
