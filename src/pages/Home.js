@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 import Aboutme from "./Aboutme"
 import Languages from "./Languages"
 import Slides from "../components/Slides"
+import Projects from "./Projects"
 
 
 const Home = () => {
@@ -55,6 +56,14 @@ const Home = () => {
         <br/>
         <br/>
         <Languages/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Projects/>
         <Footer/>
       </div>
     </>
