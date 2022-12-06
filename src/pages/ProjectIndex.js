@@ -1,20 +1,18 @@
 import React from "react"
-import { Card,  } from "flowbite-react"
-// import GRD from "../assets/Gym Rat Deals.png"
+import { Card } from "flowbite-react"
+
+// import {projects} from "../components/projectdata"
 
 
 
-
-
-
-const Projects =({ projects }) => {
+const ProjectIndex = ({ projects }) => {
   console.log(projects)
   return (
     <>
-      <center><mark className="bg-zinc-800/75 text-gold text-5xl underline decoration-emerald-600 underline-offset-4 " id="projects" > Projects </mark></center>
+      <center><mark className="bg-zinc-800/75 text-gold text-5xl underline decoration-emerald-600 underline-offset-4  "> Projects </mark></center>
       <br/>
       <center className="grid-rows-2 columns-2">
-        <div className="max-w-sm mx-8 space-y-8">
+        <div className="max-w-sm mx-8">
           {projects.map((project, index) => {
             return (
               <>
@@ -38,10 +36,9 @@ const Projects =({ projects }) => {
           })}
         </div>
       </center>
-      
-      <button className= "py-2 px-8 m-8  bg-[#3a424c] hover:bg-gray-800 border bg-gradient-to-r from-slate-300 shadow-xl rounded-lg focus:outline-none "><a href="/projectindex" target="_blank" rel="noopener noreferrer" className="underline underline-offset-8">View All!</a></button>
-      
     </>
   )
 }
-export default Projects
+  
+export default ProjectIndex
+

@@ -1,14 +1,14 @@
 import React from "react"
 // import Header from "../components/Header"
-import Footer  from "../components/Footer"
+// import Footer  from "../components/Footer"
 import Navbar from "../components/Navbar"
 import Aboutme from "./Aboutme"
 import Languages from "./Languages"
 import Slides from "../components/Slides"
+// import ProjectsIndex from "./ProjectsIndex"
 import Projects from "./Projects"
 
-
-const Home = () => {
+const Home = ({projects}) => {
   
   
   return (
@@ -46,8 +46,10 @@ const Home = () => {
         <div>
           <Navbar/>
         </div>
-        <Slides/>
-        <Aboutme/>
+        <div>
+          <Slides/>
+          <Aboutme/>
+        </div>
         <br/>
         <br/>
         <br/>
@@ -55,7 +57,9 @@ const Home = () => {
         <br/>
         <br/>
         <br/>
-        <Languages/>
+        <div>
+          <Languages/>
+        </div>
         <br/>
         <br/>
         <br/>
@@ -63,8 +67,10 @@ const Home = () => {
         <br/>
         <br/>
         <br/>
-        <Projects/>
-        <Footer/>
+        <div>
+          <Projects projects={projects}/>
+          {/* <Footer/> */}
+        </div>
       </div>
     </>
   )

@@ -21,7 +21,7 @@ export const Languages = () => {
         <br/>
         <br/>
         <center>
-          <mark className="bg-zinc-800/75 text-5xl underline decoration-emerald-700 text-gold my-8"> Languages </mark>
+          <mark className="bg-zinc-800/75 text-5xl underline decoration-emerald-700 text-gold my-8" id="languages"> Languages </mark>
         </center>
         <div className="mx-20 my-8">
           <p><mark className="bg-zinc-800/75 text-gold">@LEARN Academy I went through an accelerated course where I learned the fundamentals of both the front-end and back-end of web development and acquired an internship opportunity to gain real experience as a full stack developer. Within the course and I acquired the knowledge for the following coding languages and frameworks: HTML, CSS, Javascript, React, Ruby, Postgresql, Postman, Rails, React in Rails, TailwindCSS and others.</mark> </p>
